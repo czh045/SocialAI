@@ -1,0 +1,15 @@
+# Copy this file to deploy.yml only on your own machine or GCP environment.
+# Never commit real passwords, bucket names, or token secrets.
+elasticsearch:
+  address: "http://YOUR_GCE_INTERNAL_IP:9200"
+  username: "YOUR_ELASTICSEARCH_USERNAME"
+  password: "YOUR_ELASTICSEARCH_PASSWORD"
+
+storage:
+  driver: "gcs"
+
+gcs:
+  bucket: "YOUR_GCS_BUCKET"
+
+token:
+  secret: "REPLACE_WITH_A_LONG_RANDOM_SECRET"

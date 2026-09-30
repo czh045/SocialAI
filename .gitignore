@@ -1,0 +1,14 @@
+# Frontend dependencies, builds, and local environment variables
+social-ai/node_modules/
+social-ai/build/
+social-ai/.env
+social-ai/.env.local
+
+# Go runtime media and credentials
+socialai/uploads/
+socialai/conf/deploy.yml
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/

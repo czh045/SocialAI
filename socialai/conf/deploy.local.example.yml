@@ -1,0 +1,14 @@
+# Copy this file to deploy.yml only for local development.
+# Use a long random token secret and never commit deploy.yml.
+elasticsearch:
+  address: "http://localhost:9200"
+  username: ""
+  password: ""
+
+storage:
+  driver: "local"
+  directory: "uploads"
+  public_base_url: "http://localhost:8080/uploads"
+
+token:
+  secret: "REPLACE_WITH_A_LONG_RANDOM_SECRET"

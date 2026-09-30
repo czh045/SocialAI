@@ -1,0 +1,16 @@
+.login-form {
+  width: min(300px, calc(100vw - 40px));
+  margin: 200px auto 0;
+}
+
+.login-form-button {
+  width: 100%;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.form-link {
+  display: block;
+  margin-top: 12px;
+  text-align: center;
+}
